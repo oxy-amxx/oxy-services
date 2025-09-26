@@ -167,7 +167,7 @@ public player_spawn(id)
         return;
 
     new i, flags = get_user_flags(id);
-    new CsTeams team = cs_get_user_team(id);
+    new CsTeams:team = cs_get_user_team(id);
 
     for (i = 0; i < sizeof g_adminGroups; i++)
     {
